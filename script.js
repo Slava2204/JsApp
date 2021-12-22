@@ -1,7 +1,7 @@
 function spanClickListener (e) {
 
     let span = e.target;
-    var d = document.querySelector('.active');
+    let d = document.querySelector('.active');
 
     if (span.matches('p span')) {
         span.classList.add('active');
